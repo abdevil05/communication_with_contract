@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storage DApp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Storage DApp</h1>
+        <div id="contractInfo">
+            <p>Contract Name: <span id="contractName"></span></p>
+        </div>
+        <div class="form-group">
+            <input type="number" id="storeNumber" placeholder="Enter a number">
+            <button onclick="storeNumber()">Store Number</button>
+        </div>
+        <div class="form-group">
+            <button onclick="retrieveNumber()">Retrieve Number</button>
+            <p>Stored Number: <span id="retrievedNumber"></span></p>
+        </div>
+        <div id="status"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.7.2/ethers.umd.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
