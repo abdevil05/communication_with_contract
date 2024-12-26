@@ -1,0 +1,14 @@
+{
+    "name": "storage-dapp",
+    "version": "1.0.0",
+    "description": "Simple Storage DApp",
+    "scripts": {
+        "start": "lite-server"
+    },
+    "dependencies": {
+        "ethers": "^5.4.0"
+    },
+    "devDependencies": {
+        "lite-server": "^2.6.1"
+    }
+}
